@@ -6,17 +6,17 @@ The app allows teachers to enter student marks for five subjects, calculate the 
 This project is created as a college academic project to demonstrate basic React Native concepts and Firebase database integration.
 
 ---
-
 ## 📱 App Screenshots
 
-### Screenshot 1
-![Screenshot 1](screenshots/s1.png)
+<p align="center">
+  <img src="screenshots/s1.png" width="250" />
+  <img src="screenshots/s2.png" width="250" />
+  <img src="screenshots/s3.png" width="250" />
+</p>
 
-### Screenshot 2
-![Screenshot 2](screenshots/s2.png)
-
-### Screenshot 3
-![Screenshot 3](screenshots/s3.png)
+<p align="center">
+  <em>Student Marks Input • Result Display • Firebase Data Save</em>
+</p>
 
 
 
