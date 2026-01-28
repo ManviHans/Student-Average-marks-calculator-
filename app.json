@@ -1,7 +1,9 @@
 {
   "expo": {
-    "name": "avgcalc1",
-    "slug": "avgcalc1",
+    "name": "Marks Calculator",
+    "slug": "markscalculator",
+    "privacy": "public",
+    "description": "An application to calculate the average and percentage",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -43,6 +45,19 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "87d7a7c0-5198-4b44-94d6-7aaaa421965e"
+      }
+    },
+    "owner": "manvihans",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/87d7a7c0-5198-4b44-94d6-7aaaa421965e"
     }
   }
 }
