@@ -42,18 +42,6 @@ This project is created as a college academic project to demonstrate basic React
 
 ---
 
-## 📱 App Screenshots
-
-Home Screen (Input Form)
-
-![Home Screen](screenshots/home.png)
-
-Result Screen (Output)
-
-![Result Screen](screenshots/result.png)
-
----
-
 ## 📂 Firestore Database Structure
 
 students (collection)
