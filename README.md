@@ -10,15 +10,15 @@ This project is created as a college academic project to demonstrate basic React
 
 <p align="center">
   <img src="screenshots/s2.png" width="250" />
-  <img src="screenshots/s21.png" width="250" />
+  <img src="screenshots/s1.png" width="250" />
   
 </p>
 <p align="center">
-  <img src="screenshots/s3.png" width="250" />
-</p></p>
+  <img src="screenshots/s3.png" width="750" />
+</p>
 
-<p align="center">
-  <em>Student Marks Input • Result Display • Firebase Data Save</em>
+
+ 
 </p>
 
 
