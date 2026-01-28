@@ -1,50 +1,109 @@
-# Welcome to your Expo app 👋
+# 📊 Student Marks Calculator App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a simple mobile application developed using Expo React Native.  
+The app allows teachers to enter student marks for five subjects, calculate the average and percentage, display the result on the screen, and store the data in Firebase Firestore.
 
-## Get started
+This project is created as a college academic project to demonstrate basic React Native concepts and Firebase database integration.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📱 App Screenshots
 
-2. Start the app
+### Screenshot 1
+![Screenshot 1](screenshots/s1.png)
 
-   ```bash
-   npx expo start
-   ```
+### Screenshot 2
+![Screenshot 2](screenshots/s2.png)
 
-In the output, you'll find options to open the app in a
+### Screenshot 3
+![Screenshot 3](screenshots/s3.png)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## 🚀 Features
+- Enter student name
+- Enter marks for 5 subjects (Math, Physics, Chemistry, English, Computer)
+- Automatically calculates average and percentage
+- Displays output on the screen
+- Stores student data in Firebase Firestore
+- Scrollable user interface using ScrollView
+- Simple and beginner-friendly design
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 🛠 Tech Stack
+- Frontend: Expo React Native
+- Database: Firebase Firestore
+- Language: JavaScript
+- Version Control: Git & GitHub
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📱 App Screenshots
 
-To learn more about developing your project with Expo, look at the following resources:
+Home Screen (Input Form)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+![Home Screen](screenshots/home.png)
 
-## Join the community
+Result Screen (Output)
 
-Join our community of developers creating universal apps.
+![Result Screen](screenshots/result.png)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 📂 Firestore Database Structure
+
+students (collection)
+ └── autoID (document)
+     ├── name (string)
+     ├── math (number)
+     ├── physics (number)
+     ├── chemistry (number)
+     ├── english (number)
+     ├── computer (number)
+     ├── average (number)
+     └── percentage (number)
+
+Each student’s data is stored as a separate document in the students collection.
+
+---
+
+## 🔄 How the App Works
+1. The user enters the student name and marks.
+2. On clicking Calculate & Save:
+   - Total marks are calculated
+   - Average and percentage are calculated
+   - The result is displayed on the screen
+   - The data is saved to Firebase Firestore
+
+---
+
+## ▶️ How to Run the Project
+
+npm install  
+npx expo start
+
+Open the app using Expo Go or an emulator.
+
+---
+
+## 🎯 Project Use Case
+This application helps teachers to digitally store student marks, avoid manual calculations, and maintain academic records using a cloud database.
+
+---
+
+## 🧑‍🏫 Academic Note
+Firebase Authentication is not used in this project as it is a demo academic project.  
+Firestore is used in test mode for learning purposes.
+
+---
+
+## 👩‍💻 Author
+Manvi Hans  
+B.Sc. Physical Science with Computer Science  
+Delhi University
+
+---
+
+## 🔗 GitHub
+This project is version-controlled using Git and hosted on GitHub.
